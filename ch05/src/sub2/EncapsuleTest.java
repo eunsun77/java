@@ -1,6 +1,6 @@
 package sub2;
 
-import sub1.Account;
+import sub2.Account;
 
 /*
  * 날짜 ㅣ 25/01/07
@@ -62,8 +62,9 @@ public class EncapsuleTest {
 		kb.show();
 		
 		//김유신 -> 김유진 개명
-		/*kb.setName("김유진");
+		kb.setName("김유진");
 		kb.show();
+		
 		/*
 		 Account 객체 생성 초기화(캡슐화 적용)
 		 <출력>
@@ -78,8 +79,8 @@ public class EncapsuleTest {
 		wr.show();
 		
 		//우리은행 -> 유리은행 상호변경
-		/*wr.setBank("유리은행");
+		wr.setBank("유리은행");
 		wr.show();
-			*/	
+			
 	}
 }

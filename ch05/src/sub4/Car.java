@@ -1,13 +1,13 @@
-package sub2;
+package sub4;
 
 //Car 클래스 정의(설계)
 public class Car {
 
 	//속성
-
-	private String name;
-	private String color;
-	private int speed;
+	//protected 접근권한으로 자식클래스에서 참조 가능
+	protected String name;
+	protected String color;
+	protected int speed;
 
 	
 	//클래스 변수(정적변수)
@@ -52,3 +52,6 @@ public class Car {
 	
 }
 
+/*protected는 같은 패키지 내에선 직접 참조 ex) sonata.name = " 아반떼";가 가능함.
+  근데 보통 패키지 세분화하기 때문에 패키지 안에서 protected 쓸 일은 거의 없어서 직접 참조 불가능할 듯.
+  */
